@@ -2,11 +2,12 @@
 
 def clear_term():
     print(chr(27) + "[2J")
-    print(chr(27) + "[37m")
 
 
 if __name__ == "__main__":
-    print(chr(27) + "[31m")
+
+    clear_term()
+    
     print("Here's some junk")
     print("that we may want")
     print("to clear away")
